@@ -1,0 +1,12 @@
+- name: Import PPA of DNSCrypt Proxy2 into system
+  apt_repos: repo="shevchuk/dnscrypt-proxy"
+
+- name: Install DNSCrypt-proxy
+  apt: name=dnscrypt-proxy state=present
+
+- name: Start and Enable DNSCrypt-proxy
+  service: name="{{ services }}" enabled=yes state=started
+  vars:
+    services:
+    - dnscrypt-proxy
+    - dnscrypt-proxy.socket 

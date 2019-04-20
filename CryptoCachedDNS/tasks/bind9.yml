@@ -1,0 +1,12 @@
+- name: Install Bind9 DNS Server
+  apt: name="{{ packages }}" state=presenet
+  vars:
+     packages:
+     - bind9
+     - bind9utils
+
+- name: Start and Enable Bind9 DNS Server
+  service: name=bind9 enabled=yes state=started
+
+- name: Generate Bind9 configuration file
+  template: src=named.conf.options dest=/etc/bind/named.conf.options
