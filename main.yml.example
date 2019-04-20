@@ -1,0 +1,5 @@
+---
+- hosts: localhost
+  remote_user: "{{ ansible_system_user }}"
+  roles:
+    - { role: CryptoCachedDNS }
