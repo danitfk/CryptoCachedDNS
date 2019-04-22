@@ -1,2 +1,5 @@
 ---
 # handlers file for CryptoCachedDNS
+- name: reload bind9
+  service: name="bind9" state=restarted
+
