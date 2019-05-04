@@ -4,7 +4,7 @@ An Ansible playbook to deploy many DNS Cache server with Bind9 backend and DNSCr
 build status: [![Build Status](https://travis-ci.org/danitfk/CryptoCachedDNS.svg?branch=master)](https://travis-ci.org/danitfk/CryptoCachedDNS)
 
 ## DNSCrypt + Bind9
-With this playbook you can have a bind9 as you DNS Server with DNSCrypt backend (forwarder) to ** secure and protect your DNS queries **.
+With this playbook you can have a bind9 as you DNS Server with DNSCrypt backend (forwarder) to *** secure and protect your DNS queries ***.
 
 ## Use Cases:
 
