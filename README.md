@@ -50,3 +50,19 @@ then run the ansible command:
 ansible-playbook -i inventory main.yml  --become
 
 ```
+
+## Tips and Tricks
+
+Before running the playbook, Change the variables properly:
+
+./CryptoCachedDNS/defaults/main.yml
+
+```
+---
+trusted_network: 127.0.0.1; 192.168.0.0/16; 172.16.0.0/12;
+max_cache: 1800
+max_ncache: 1800
+
+
+```
+
