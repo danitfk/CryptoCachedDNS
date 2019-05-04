@@ -5,7 +5,7 @@ options {
         allow-transfer { none; };
         dnssec-enable yes;
         dnssec-validation yes;
-	forwarders { 127.0.2.1; };
+	forwarders { {{ forwarders }}; };
 	auth-nxdomain no;    # conform to RFC1035
 	listen-on { {{ public_ip}}; };
 	listen-on-v6 { none; };
