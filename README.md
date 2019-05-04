@@ -7,11 +7,11 @@ build status: [![Build Status](https://travis-ci.org/danitfk/CryptoCachedDNS.svg
 With this playbook you can have a bind9 as you DNS Server with DNSCrypt backend (forwarder) to **secure and protect your DNS queries**.
 
 **Without CryptoCachedDNS**
-![alt Unsecure DNS](https://github.com/danitfk/CryptoCachedDNS/blob/master/screenshots/without.jpg?raw=true)
+![alt Unsecure DNS](https://github.com/danitfk/CryptoCachedDNS/blob/master/screenshots/with.jpg?raw=true)
 
 
 **With CryptoCachedDNS**
-![alt Secure DNS](https://github.com/danitfk/CryptoCachedDNS/blob/master/screenshots/with.jpg?raw=true)
+![alt Secure DNS](https://github.com/danitfk/CryptoCachedDNS/blob/master/screenshots/without.jpg?raw=true)
 
 
 ## Use Cases:
